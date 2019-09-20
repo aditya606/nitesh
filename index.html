@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home| HOSPITAL</title>
+
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link href="css/prettyPhoto.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" />
+
+  <style>
+    .container-fluid{
+      display: flex;
+  justify-content: space-between;
+    }
+    .sh{
+    margin-top: 7px;
+    margin-bottom: 45px;
+    box-shadow: 0 1px 18px rgba(0,0,0,0.6);
+    padding:20px 15px 0 15px;
+    margin-left: 4px;
+}
+    .sha{
+    margin-top: 17px;
+    margin-bottom: 45px;
+    box-shadow: -10px 1px 19px black;
+    /* padding:0px 15px 10px 15px; */
+    margin-left: 38px;
+  /* align-self: auto; */
+  
+}
+.col-md-offset-1{
+  margin-left: 50px;
+}
+.col-sm-2,.col-md-2,.col-lg-2,.col-xl{
+  width: 22%;
+  /* margin:auto; */
+}
+.containerj{
+  background-color: red;
+  /* padding: 10px; */
+  width: 100vw;
+}
+.col-md-1{
+  width:20%;
+}
+  </style>
+  <style>
+      .mySlides {display:none;}
+      </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.html"><h1  style="font-weight: bold ;text-shadow: 2px 2px 3px grey;"><span>CAPITAL</span>HOSPITAL</h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="index.html" class="active">Home</a></li>
+              
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="portfolio.html">Portfolio</a></li>
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="bill.html">Patient Billing</a></li>
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="index1.html">Chemist Shop</a></li>
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="contact.html">Contact</a></li>
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="login.html">Admin Login</a></li>
+                <li role="presentation"><a style="font-weight:bold; text-shadow: 0.7px 1px 2px grey;"  href="index2.html">about-us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="images/slider/301842.jpg" style="width:1540px; height: 600px;">
+    <img class="mySlides" src="images/slideR/123.jpg" style="width:1540px; height: 600px;">
+    <img class="mySlides" src="images/slider/302638.jpg" style="width:1540px; height: 600px;">
+    <img class="mySlides" src="images/slider/PregBirthBeyondFacebookImage.jpg" style="width:1540px; height: 600px;">
+    <img class="mySlides" src="images/slider/75-Good-Hospital-Slogans-and-Taglines.jpg" style="width:1540px; height: 600px;">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+ 
+
+  <div class="container" >
+    <div class="text-center">
+      <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+        <h3  style="font-weight: bold ;text-shadow: 2px 2px 3px grey;">A Community of Caring</h3>
+      </div>
+      <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+        <h2  style="font-weight: bold ;text-shadow: 2px 2px 3px grey;">Not just better healthcare, but a better healthcare experience.</h2>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="box  bg-info" style>
+    <div class="wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 sha ">
+       
+        <i class="fab fa-angellist fa-3x"></i>
+        <h2>100+</h2>
+        <h5 style="color:grey;">Experience Doctors</h5>
+
+        
+      </div>
+    </div>
+    <div class="wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.8s">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 sha ">
+        
+        <i class="fab fa-amazon fa-3x"></i>
+        <h2>10+</h2>
+        <h5 style="color:grey;">Branches</h5>
+      </div>
+    </div>
+    <div class="wow fadeInRight" data-wow-offset="0" data-wow-delay="1.2s">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 sha">
+       
+        <i class="fab fa-angellist fa-3x"></i>
+        <h2>1000+</h2>
+        <h5 style="color:grey;">Employees</h5>
+
+        
+      </div>
+    </div>
+    <div class="wow fadeInRight" data-wow-offset="0" data-wow-delay="1.6s">
+      <div class="col-sm-2 col-md-2  col-lg-2 col-xl-2 sha">
+      
+        <i class="fas fa-bullhorn fa-3x"></i>
+        <h2>100+</h2>
+        <h5 style="color:grey;">AC Rooms</h5>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+<br>
+  <div class="features">
+    <div class="container" >
+      <div class="text-center">
+        <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+          <center><h2 style="font-weight: bold ;text-shadow: 2px 2px 3px grey;">Vision and Mission</h2></center>
+        </div>
+        <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+          <h4 style="margin-bottom:44px;color: rgb(12, 67, 114);font-weight:bold;padding:44px;">&ldquo;
+              Reading Hospital will be an innovative, leading regional health system dedicated to advancing the health and transforming the lives of
+               the people we serve through excellent clinical quality; accessible, patient-centered, caring service;
+                and unmatched physician and employee commitment.The Mission of Reading Hospital is to provide compassionate, accessible, high quality, cost effective healthcare
+                 to the community; to promote health; to educate healthcare professionals; and to participate in appropriate clinical research.	&rdquo;<br></h4>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+
+  <div class="container-fluid" style="background-image:linear-gradient(to top, rgba(0,0,0,0.8)30%,rgba(29, 27, 27, 0.4)60%),url('images/slider/hospital.jpg');
+  background-attachment:fixed;background-repeat: no-repeat;background-size:cover; padding:100px;">
+  <div class="container" >
+    <div class="col-lg-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.5s">
+      <img src="images/slider/different-doctors.jpg" class="img-responsive" style="height:400px;">
+    </div>
+
+    <div class="col-lg-6 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.5s">
+      <img src="images/slider/p.jpg" class="img-responsive" style="height:400px;">
+    </div>
+  </div>
+  </div>
+
+  <div class="main-feature">
+    <div class="container-fluid">
+      <div class="col-md-3 sh wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+        <div class="media ">
+          <div class="media-left">
+            <i class="fa fa-rocket fa-3x"></i>
+          </div>
+
+          <div class="media-body ">
+            <h4 style="text-shadow: 0.7px 1px 2px grey;" class="media-heading">HEALING YOUR HEART: CONTROL THE BLOOD PRESSURE</h4>
+            <p> Most of the times there are no telltale signs till a catastrophic event happens. It is a major cause of stroke, heart attack and heart failure. 
+              More importantly, it is a preventable risk factor. Globally a lot many lives can be saved
+               and hospitalizations prevented, if we learn to control our blood pressure, and that starts with understanding the causes of blood pressure..</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 wow sh fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+        <div class="media">
+          <div class="media-left">
+            <i class="fab fa-slideshare fa-3x"></i>
+          </div>
+
+          <div class="media-body">
+            <h4 style="text-shadow: 0.7px 1px 2px grey;" class="media-heading">PATIENT TESTIMONALS</h4>
+            <p>We are extremely happy with the Treatment and services provided during stay at Capital IVF centre, Mohali.
+              Thanks to Dr.Arunima Gautam & team,we are blessed with twin baby boys.
+            --MR.AMIT KUMAR...	</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 wow sh fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+        <div class="media">
+          <div class="media-left">
+            <i class="fa fa-heart-o fa-3x"></i>
+          </div>
+
+          <div class="media-body">
+            <h4 style="text-shadow: 0.7px 1px 2px grey;"  class="media-heading">CARDIOLOGY</h4>
+            <p>Cardiology is a specialty of internal medicine. To be a cardiologist in the United States,
+               a three-year residency in internal medicine is followed by a three-year fellowship in cardiology.
+                It is possible to specialize further in a sub-specialty. Recognized sub-specialties in the United 
+                States by the ACGME are cardiac electrophysiology, echocardiography, interventional cardiology, and
+                 nuclear cardiology. Recognized subspecialties in the United States by the American Osteopathic Association
+                  Bureau of Osteopathic Specialists (AOABOS) include clinical cardiac electrophysiology and interventional cardiology.
+                </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center " style="background-image:linear-gradient(to top, rgba(0,0,0,0.8)30%,rgba(29, 27, 27, 0.4)60%),url('images/slider/sviet.jpg');background-attachment:fixed;background-repeat: no-repeat;background-size:cover; padding:50px;">
+      <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+        <h2> </h2>
+      </div>
+      <div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="0.6s">
+        <p style="color:rgb(190, 131, 42);font-weight:bold;line-height:50px;font-size:40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            The art of medicine consists in amusing the patient while nature cures the disease.</p>
+      </div>
+
+      <button type="button" class="btn btn-default">Know More</button>
+      <button type="button" class="btn btn-default ml-5" style="margin-left:20px;">Read More</button>
+    </div>
+
+  </div>
+
+  <div class="about-us">
+    <div class="container-fluid">
+      <div class="text-center">
+        <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+          <h3 style="text-shadow: 0.7px 1px 2px grey;">What People Are</h3>
+        </div>
+        <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+          <h2 style="text-shadow: 0.7px 1px 2px grey;">Saying About Us</h2>
+        </div>
+  <div class="containerj">
+
+        <div class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="col-md-1 ">
+            <img src="images/slider/dr.jpg" alt="" style="width:150px;height:150px;border-radius: 50%;" >
+            <h3>Dr.Amit kumar</h3>
+            <p>We have been provided training on essential & upcoming technologies in their respective field/branch.</p>
+          </div>
+        </div>
+
+        <div class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="col-md-1">
+            <img src="images/slider/ar.jpg" alt="" style="width:150px;height:150px;border-radius: 50%;">
+            <h3>Shalini Arora</h3>
+            <p>Multi dimensional approach has been implemented covering Reasoning, Quantative skills, etc. to enhance personality and knowledge of the students.</p>
+          </div>
+        </div>
+
+        <div class="wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="col-md-1">
+            <img src="images/slider/dr.jpg" alt="" style="width:150px;height:150px;border-radius: 50%;">
+            <h3>Dr.kaushal kumar</h3>
+            <p>To support the bright students in fetching good jobs as per their caliber.</p>
+          </div>
+        </div>
+
+        <div class="wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="col-md-1">
+            <img src="images/slider/dr.jpg" alt="" style="width:150px;height:150px;border-radius: 50%;">
+            <h3>Dr.Kuldeep singh</h3>
+            <p>we have learnt about how to design a website professionally which will help in grabbing placement easily.</p>
+          </div>
+        </div>
+        <div class="wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="col-md-1">
+            <img src="images/slider/dr.jpg" alt="" style="width:150px;height:150px;border-radius: 50%;">
+            <h3>Dr.Abhishek Arora</h3>
+            <p>we have learnt about how to design a website professionally which will help in grabbing placement easily.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.2s">
+          <h2>CAPITAL HOSPITAL</h2>
+          <p style="color:white;">
+              The hospital that feeds you refined sugar, white bread, canned soup, bouillon cubes, and frozen
+               vegetables should be closed by the health department as a menace to the public health.</p>
+
+          <ul class="social-network">
+            <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+            <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+          <h3>CONTACT INFO</h3>
+          <ul>
+            <a href="" style="color:white"> <li><i class="fa fa-home fa-2x"></i>CApital hospital, Chandigarh-Patiala National Highway Sec-8, Ram Nagar,Banur,Punjab(INDIA)</li></a>
+            <hr>
+            <li><i class="fa fa-phone fa-2x"></i>+91-94652-33333, 97818-22222</li>
+            <hr>
+            <li><i class="fa fa-envelope fa-2x"></i>capitalhospital@2.ac.in, info@capitalS.ac.in</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            &copy;capital hospital. All Rights Reserved.
+            <div class="credits">
+             
+             Designed by <a href="https://bootstrapmade.com/">DS6</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="pull-right">
+              <li><a href="index.html">Home</a></li>
+     
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pull-right">
+          <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+ 
+  <script src="js/jquery-2.1.1.min.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  
+
+</body>
+
+</html>
